@@ -1,0 +1,28 @@
+2022-05-10T11:05:55+00:00 CRITICAL Uncaught Exception: Invalid post. in C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\base\document.php(1542): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\base\document.php(725): Elementor\Core\Base\Document->save_settings(Array)
+#2 C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\kits\manager.php(262): Elementor\Core\Base\Document->update_settings(Array)
+#3 C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\kits\manager.php(424): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_descriptio...', 'La boutique du ...')
+#4 C:\xampp\htdocs\wp_ss\wp-includes\class-wp-hook.php(309): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('Un site utilisa...', 'La boutique du ...')
+#5 C:\xampp\htdocs\wp_ss\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 C:\xa dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementor\core\settings\page\manager.php à la ligne 101
+
+2022-05-10T15:32:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementskit-lite\widgets\heading\heading.php à la ligne 7
+
+2022-05-10T15:34:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-includes\wp-db.php à la ligne 2162
+
+2022-05-10T15:34:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\woocommerce\packages\woocommerce-admin\src-internal\Admin\Schedulers\CustomersScheduler.php à la ligne 8
+
+2022-05-10T15:34:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementskit-lite\widgets\video\video.php à la ligne 7
+
+2022-05-10T15:44:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 66
+
+2022-05-10T20:48:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementskit-lite\widgets\team\team.php à la ligne 7
+
+2022-05-10T21:44:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php à la ligne 1026
+
+2022-05-10T21:45:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementskit-lite\widgets\tablepress\tablepress.php à la ligne 7
+
+2022-05-10T21:45:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wp_ss\wp-content\plugins\elementskit-lite\widgets\tablepress\tablepress.php à la ligne 7
+
