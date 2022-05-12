@@ -42,13 +42,26 @@
                     </div>
                 <?php } ?>
             </div>
-            
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <?php if (class_exists('WooCommerce')) { ?>
                 <div class="header-right col-md-3 hidden-xs" >
+                    <?php 
+                        wp_nav_menu(array(
+                            'theme_location' => 'main_menu_right',
+                            'depth' => 1,
+                            'container_id' => 'my-menu-right',
+                            'container' => 'div',
+                            'container_class' => 'menu-container',
+                            'menu_class' => 'nav navbar-nav navbar-right',
+                            'fallback_cb' => 'Envo_Shop_WP_Bootstrap_Navwalker::fallback',
+                            'walker' => new Envo_Shop_WP_Bootstrap_Navwalker(),
+                        ));
+                    ?>
                     <?php envo_shop_header_cart(); ?>
                     <?php envo_shop_my_account(); ?>
                     <?php envo_shop_head_wishlist(); ?>
                     <?php envo_shop_head_compare(); ?>
+                    
                 </div>	
             <?php } ?>
         </div>
